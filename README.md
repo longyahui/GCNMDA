@@ -3,6 +3,8 @@
 
 # Data description
 * adj: interaction pairs between microbes and drugs.
+* drugs/viruses: IDs and names for drugs/viruses.
+* microbes: IDs and names for microbes.
 * drugfeatures: pre-processing feature matrix for drugs.
 * microbefeatures: pre-processing feature matrix for microbes.
 * drugsimilarity: integrated drug similarity matrix.
