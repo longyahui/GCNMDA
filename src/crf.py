@@ -18,7 +18,7 @@ def dot(x, y, sparse=False):
 def crf_layer(hidden,hidden_new):    
    
    alpha = 50  
-   beta = 50
+   beta = 1 #50
    
    bias_mat = adj_to_bias(sizes=[hidden.shape[0]], nhood=1)
    bias_mat = tf.cast(bias_mat, tf.float32)
